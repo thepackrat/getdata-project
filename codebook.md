@@ -2,9 +2,14 @@
 
 This document describes the data sources and types presents in the two
 tidy data sets, mostly with reference to the original codebook
-available with the data set.
+available with the data set from:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ## fulldata
+
+This data set combines all measurements from the test and training
+data sets of the original data sets into a single unified set.
 
 ### Variables
 There are two new variables:
@@ -14,7 +19,7 @@ from "subject_test.txt" or "subject_train.txt"
   representation of the activity undertaken (based on "activity_labels.txt")
 
 The remainder of the variables are named as the original
-data with all instances of "()" removed and hypens "-" converted to
+data with all instances of "()" removed and hyphens "-" converted to
 underscores "_"
 
 
